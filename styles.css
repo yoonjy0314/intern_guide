@@ -516,6 +516,7 @@ img {
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 12px;
+  min-height: 44px;
 }
 
 .org-dept-label {

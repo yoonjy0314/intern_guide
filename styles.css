@@ -439,6 +439,52 @@ img {
   margin-top: 12px;
 }
 
+.intranet-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.intranet-step {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.intranet-step-img {
+  height: 280px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.intranet-step-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-top: 0;
+  border: none;
+}
+
+.intranet-step-label {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.intranet-step-note {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
 .bank-tags {
   display: flex;
   flex-wrap: wrap;

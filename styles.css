@@ -152,6 +152,12 @@ img {
   margin-bottom: 8px;
 }
 
+.section-title-note {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
 .section-desc {
   font-size: 14px;
   color: var(--text-secondary);
